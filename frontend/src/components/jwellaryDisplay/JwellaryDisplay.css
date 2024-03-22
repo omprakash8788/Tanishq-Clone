@@ -1,0 +1,19 @@
+.jwellary{
+    margin-top: 30px;
+
+}
+.jwellary h2{
+    font-size: max(2vw, 24px);
+    font-weight: 600;
+    text-align: center;
+    color: rgb(54, 46, 61);
+
+}
+.jwellary-display-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+
+}

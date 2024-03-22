@@ -1,0 +1,45 @@
+.header{
+    height: 40vw;
+    /* margin: 30px auto; */
+    background:url('https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Library-Sites-TanishqSharedLibrary/default/dw85d21291/homepage/HeroBanner/chains-desktop.jpg') no-repeat; 
+    background-size: contain;
+    position: relative;
+
+
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+    animation: fadeIn 3s;
+
+}
+.header-contents h2{
+    font-weight: 500;
+    color: rgb(14 3 90);
+    font-size:max(4.5vw, 22px);
+}
+.header-contents p{
+    font-size: 1vw;
+    color: rgb(14 3 90);
+}
+.header-contents button{
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw , 13px);
+    border-radius: 50px;
+
+}
+.header-contents button:hover{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+}
